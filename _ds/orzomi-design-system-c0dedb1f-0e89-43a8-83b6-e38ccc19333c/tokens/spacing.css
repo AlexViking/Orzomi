@@ -1,0 +1,25 @@
+/* ORZOMI spacing — every measurement derives from φ (1.618) and Fibonacci steps. */
+:root {
+  --space-3: 3px;
+  --space-5: 5px;
+  --space-8: 8px;
+  --space-13: 13px;
+  --space-21: 21px;
+  --space-34: 34px;
+  --space-55: 55px;
+  --space-89: 89px;
+
+  --gap-grid: 21px;      /* standard grid gap */
+  --pad-tile: 24px;      /* tile/card padding (brandbook tiles use 24; large specimens 28) */
+
+  /* Shape: the brand has NO corner radius — everything is squared,
+     except perfect circles (avatar discs, the O of the mark). */
+  --radius-0: 0px;
+  --radius-circle: 50%;
+
+  /* Borders: 1px hairlines; 2px only for section-top rules (.vp) */
+  --border-w: 1px;
+  --border-w-rule: 2px;
+
+  /* No drop shadows anywhere in the brand. Depth = surface steps + hairlines. */
+}

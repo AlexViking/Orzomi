@@ -1,0 +1,24 @@
+/* ORZOMI base element styles */
+body {
+  background: var(--surface-deep);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-16);
+  line-height: 1.6;
+  margin: 0;
+}
+.o-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.o-h1 { font: var(--type-h1); letter-spacing: var(--tracking-h1); margin: 0; }
+.o-h2 { font: var(--type-h2); margin: 0; }
+.o-h3 { font: var(--type-h3); margin: 0; }
+.o-mono { font-family: var(--font-mono); }
+.o-gold { color: var(--accent); }
+.o-muted { color: var(--text-muted); }
+.o-body { color: var(--text-body); }
+.o-rule { height: 1px; background: var(--border); border: 0; width: 100%; }

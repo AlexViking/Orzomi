@@ -1,0 +1,35 @@
+/* ORZOMI color tokens — "Charcoal, paper, gold".
+   Warm monochrome scale carries the brand; gold is the single accent, spent like money. */
+:root {
+  /* Base palette (from brandbook p.06) */
+  --charcoal-900: #100f0e; /* deepest surface — covers, page background */
+  --charcoal-700: #1c1a18; /* standard dark surface */
+  --graphite: #524c45;     /* tone-on-tone mark, quiet strokes */
+  --stone: #8a857a;        /* muted text, labels */
+  --paper: #ece8df;        /* light surface / primary text on dark */
+  --gold: #d9a038;         /* the single accent */
+  --ink: #171717;          /* mark on paper */
+
+  /* Derived neutrals (used throughout brandbook layouts) */
+  --line: #33302c;         /* hairline borders on dark */
+  --line-strong: #38342f;  /* image borders, subtle strokes */
+  --body-dark: #c9c4b9;    /* body copy on dark */
+  --error: #c96f5a;        /* "never" annotations — the only red */
+
+  /* Semantic aliases — dark surfaces are default */
+  --surface-deep: var(--charcoal-900);
+  --surface: var(--charcoal-700);
+  --surface-card: var(--charcoal-700);
+  --surface-paper: var(--paper);
+  --text-primary: var(--paper);
+  --text-body: var(--body-dark);
+  --text-muted: var(--stone);
+  --text-on-gold: var(--charcoal-900);
+  --text-on-paper: var(--charcoal-900);
+  --accent: var(--gold);
+  --border: var(--line);
+  --border-strong: var(--line-strong);
+  --mark-quiet: var(--graphite);
+
+  /* Golden proportion of color use: charcoal 61.8% / graphite 23.6% / paper 9% / gold 5.6% */
+}
